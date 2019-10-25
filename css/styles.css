@@ -1,21 +1,40 @@
-background-color{
-    
+
+
+body{
+    background-color: aquamarine;
 }
 
-#main{
+header{
+    background-color: #f1f9ec;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 30px;
+}
+
+#content{
     margin: 0 auto;
-    border: 5px solid whitesmoke;
-    border-radius: 5px;
-    width: 100vh;
+    width: 60%;
+}
+
+input[type=numbers]{
+    height: 25px;
+}
+
+::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+    color: brown;
+}
+
+section{
     display: flex;
 }
 
-
-#akan{
-    background-color: beige;
-    width: 
-}
-
-form{
-    width: 60%;
+img{
+    width: 50vw;
+    height: auto;
 }
