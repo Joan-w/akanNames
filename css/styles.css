@@ -1,6 +1,21 @@
-form{
-    width: 30%;
-    height: auto;
-    margin: 0 auto;
+background-color{
+    
 }
 
+#main{
+    margin: 0 auto;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    width: 100vh;
+    display: flex;
+}
+
+
+#akan{
+    background-color: beige;
+    width: 
+}
+
+form{
+    width: 60%;
+}
