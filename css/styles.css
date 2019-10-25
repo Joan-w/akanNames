@@ -4,7 +4,13 @@ body{
     background-color: aquamarine;
 }
 
+#content{
+    margin: 0 auto;
+    width: 60%;
+}
+
 header{
+    margin: 0;
     background-color: #f1f9ec;
     text-align: center;
     font-size: 30px;
@@ -13,11 +19,6 @@ header{
 
 h1{
     padding: 30px;
-}
-
-#content{
-    margin: 0 auto;
-    width: 60%;
 }
 
 input[type=numbers]{
@@ -30,11 +31,32 @@ input[type=numbers]{
     color: brown;
 }
 
+form{
+    color: green;
+    margin: 20px;
+}
+
+input[type=numbers]{
+    margin: 3px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input[type=reset]{
+    margin: 3px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
 section{
     display: flex;
 }
 
-img{
-    width: 50vw;
-    height: auto;
+article{
+    width: 60%;
+    font-size: 2em;
+    margin: 5px;
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 1em;
 }
