@@ -10,8 +10,14 @@
 </head>
 <body>
     <div class="container">
-        <div id="narrate">
+        <div id="Akan">
             <h1>Did you know?</h1>
+        </div>
+        <div id="narrate">
+            <h3>We were all Ghanaians.</h3>
+            <p>Legend has it that right before the mad men from the west invaded Africa, we were all one big people, Ghanaians to be precise. So literary we all bore Akan names,
+                the naming culture in Ghana. So this application gives you a chance to re-unite with your long-lost roots. Enter your birth date on the form to the right and boom, he truth is once more alive.
+            </p>
         </div>
         <form>
             <fieldset>
@@ -22,19 +28,24 @@
                 </div>
                 <div id="second">
                     <label>Day:</label>
-                    <input type="number" id="day">
+                    <input type="number" id="day" required>
                 </div>
                 <div id="thrird">
                     <label>Month</label>
-                    <input type="number" id="month">
+                    <input type="number" id="month" required>
                 </div>
                 <div class="fourth">
                     <label>Year</label>
-                    <input type="number" id="year">
+                    <input type="number" id="year" required>
                 </div>
-                <div class="radio">
-                    Female<input type="radio" id="checkbox" name="gender">
-                    Male<input type="radio" id="checkbox" name="gender">
+                <div class="option">
+                    <select>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div id="button">
+                    <button>Submit</button>
                 </div>
             </fieldset>
         </form>
