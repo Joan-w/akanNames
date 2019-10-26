@@ -1,10 +1,20 @@
+let calculateDay = () =>{
 var century = parseInt(document.getElementById(century));
 var year = parseInt(document.getElementById(year));
 var month = parseInt(document.getElementById(month));
 var day = parseInt(document.getElementById(day));
 
+dayWeek = ( ( (century/4) - (2 * century - 1)) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) %7;
+
+}
+
+
+
+
 var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
+
+
 
 let readGender = () =>{
     var gend = document.getElementsByName("gender");
