@@ -12,31 +12,33 @@
         <header>
             <h1>Did you know?</h1>
         </header>
-        <article>
-            <p>Long time ago the whole of Africa was contained as a single country, Ghana. We all had a single naming culture, <strong>the Akan</strong> and to 
-                take you back to your long-lost traditions the form below will remind your name. By entering your date of birth, the African jujus working behind the scenes 
-            will spell it so feel free to take the bold step.</p>
-        </article>
         <section>
+            <article>
+                <p>Long time ago the whole of Africa was contained as a single country, Ghana. We all had a single naming culture, <strong>the Akan</strong> and to 
+                    take you back to your long-lost traditions the form below will remind your name. By entering your date of birth, the African jujus working behind the scenes 
+                will spell it so feel free to take the bold step.</p>
+            </article>
             <form>
                 <div>
-                    <input type="numbers" id="century" placeholder="Century" required>
+                    <input type="number" id="century" placeholder="Century" required>
                 </div>
                 <div>
-                    <input type="numbers" id="year" placeholder="Year" required>
+                    <input type="number" id="year" placeholder="Year" required>
                 </div>
                 <div>
-                    <input type="numbers" id="month" placeholder="Month" required>
+                    <input type="number" id="month" placeholder="Month" required>
                 </div>
                 <div>
-                    <input type="numbers" id="day" placeholder="Day of the month" required>
+                    <input type="number" id="day" placeholder="Day of the month" required>
                 </div>
                 <div id="btn">
-                    <input type="button" value="submit">
+                    <input type="reset" value="submit" onclick="getName();" id="submit">
                 </div>
             </form>
-            <img src="images/image.png">
         </section>
+        <div>
+            <img src="images/image.png" alt="Ghana's heritage">
+        </div>
     </div>
 </body>
 </html>

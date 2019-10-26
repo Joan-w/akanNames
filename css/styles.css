@@ -21,10 +21,6 @@ h1{
     padding: 30px;
 }
 
-input[type=numbers]{
-    height: 25px;
-}
-
 ::placeholder{
     font-size: 15px;
     padding-left: 10px;
@@ -36,7 +32,7 @@ form{
     margin: 20px;
 }
 
-input[type=numbers]{
+input[type=number]{
     margin: 3px;
     border-radius: 5px;
     height: 40px;
@@ -59,4 +55,8 @@ article{
     background-color: aqua;
     padding: 1em;
     border-radius: 1em;
+}
+
+img{
+    height: 20em;
 }
