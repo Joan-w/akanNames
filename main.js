@@ -1,13 +1,11 @@
-var century = parseInt(get.elementtById(century));
-var year = parseInt(get.elementtById(year));
-var month = parseInt(get.elementtById(month));
-var day = parseInt(get.elementtById(day));
+var century = parseInt(document.getElementById(century));
+var year = parseInt(document.getElementById(year));
+var month = parseInt(document.getElementById(month));
+var day = parseInt(document.getElementById(day));
 
 var maleNames = ["", "", "", "", "", "", ""];
 var femaleNames = ["", "", "", "", "", "", ""];
 
-if () {
-    
-} else {
-    
+let readGender = () =>{
+    var gend = 
 }
