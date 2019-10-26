@@ -3,8 +3,8 @@ var year = parseInt(document.getElementById(year));
 var month = parseInt(document.getElementById(month));
 var day = parseInt(document.getElementById(day));
 
-var maleNames = ["", "", "", "", "", "", ""];
-var femaleNames = ["", "", "", "", "", "", ""];
+var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
 let readGender = () =>{
     var gend = document.getElementsByName("gender");
