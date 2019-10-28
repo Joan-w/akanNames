@@ -18,8 +18,10 @@ This is web application that helps to output one's Ghanaian name in line with th
 
 # SUPPORT & COLLABORATION
 
-To anyone who'd like to add a feature to th site, kindly clone the site -  and further contact me on the permission to merge
+To anyone who'd like to add a feature to th site, kindly clone the site -  and further contact me on the permission to merge your changes.
 
 # Licence
+
+MIT
 
 
