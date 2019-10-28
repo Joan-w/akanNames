@@ -103,7 +103,7 @@ function getName(){ //overall fucntion
     var birthDay = date.getDay(); //0 to 6 as an idex from current day and YOB representing days of the week (7days(as array))
     var male = document.getElementById("male");
     var female = document.getElementById("female");
-    var result = document.getElementById("result"); //output id
+    var result = document.getElementById("result"); //output paragraph
 
 
 
@@ -111,7 +111,7 @@ function getName(){ //overall fucntion
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
-    if (male.checked){//
+    if (male.checked){
         result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
     } else {
         result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
