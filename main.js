@@ -111,9 +111,7 @@ function getName(){ //overall fucntion
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
-    if(0 < dayOfMonth < 31){
-
-    }else if (male.checked){//
+    if (male.checked){//
         result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
     } else {
         result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
