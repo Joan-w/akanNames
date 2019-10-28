@@ -112,7 +112,7 @@ function getName(){ //overall fucntion
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
     if (male.checked){
-        result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
+        result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
     } else {
         result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
     }
