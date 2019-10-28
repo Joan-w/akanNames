@@ -14,6 +14,13 @@ This is web application that helps to output one's Ghanaian name in line with th
 - JAVASCRIPT
 - MARKDOWN
 
+# BDD
+
+input           | ouput
+----------------|--------------
+Day             | Akan name
+Month & year    | Akan name
+
 
 
 # SUPPORT & COLLABORATION
@@ -21,7 +28,7 @@ This is web application that helps to output one's Ghanaian name in line with th
 To anyone who'd like to add a feature to th site, kindly clone the site -  and further contact me on the permission to merge your changes.
 
 # Licence
+## MIT License
 
-MIT
-
+Copyright (c) [2019] [Murathe Isaac]
 
