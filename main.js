@@ -111,9 +111,16 @@ function getName(){ //overall fucntion
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
-    if (male.checked){
+    if (month < 0 || month > 12 || month == "" ){
+        alert("Hey you need to re-enter a valid month!");
+    }
+    else if( dayOfMonth < 0 || dayOfMonth >31 || dayOfMonth == "") {
+        alert("Hey you need to re-enter a valid day!");
+    } 
+    else if (male.checked){
         result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
-    } else {
+    } 
+    else{
         result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
     }
 
