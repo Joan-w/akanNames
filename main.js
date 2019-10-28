@@ -1,18 +1,18 @@
-/**The html form captures users the DOB and passess it off to the formual which outputs
- * the exact day of the week.accordion
- * If else statements will aid in matching day of the week with the pre-noted names
- */
+// /**The html form captures users the DOB and passess it off to the formual which outputs
+//  * the exact day of the week.accordion
+//  * If else statements will aid in matching day of the week with the pre-noted names
+//  */
 
- //get to calculate the day
+//  //get to calculate the day
 // let dayWeek = () =>{
-// var century = parseInt(document.getElementById(century));
-// var year = parseInt(document.getElementById(year));
-// var month = parseInt(document.getElementById(month));
-// var day = parseInt(document.getElementById(day));
+// var century = parseInt(document.getElementById("century"));
+// var year = parseInt(document.getElementById("year"));
+// var month = parseInt(document.getElementById("month"));
+// var day1 = parseInt(document.getElementById("dayOfWeek"));
 
 // //day of the week
-// dayWeek = (((century/4) - (2 * century - 1)) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) %7;
-// return(dayWeek);
+// dayWeek = (((century/4) - (2 * century - 1)) + ((5*year/4) ) + ((26*(month+1)/10)) + day1 ) %7;
+// return(Math.floor(dayWeek));
 
 // }
 // //actual formula
@@ -93,5 +93,34 @@
 //     default:
 // }
 
-//New approach
+// New approach
+
+function getName(){ //overall fucntion
+    var month = document.getElementById("month").value;
+    var dayOfMonth = document.getElementById("day").value;
+    var year = document.getElementById("yob").value;
+    var date = new Date (`${dayOfMonth}/${month}/${year}`); //input fields translated
+    var birthDay = date.getDay(); //0 to 6 as an idex from current day and YOB representing days of the week (7days(as array))
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
+    var result = document.getElementById("result"); //output id
+
+
+
+    var days = ["Sunday", "Monday","Tuesday", "Wednesday", "Thursday", "Friday", "SAturday"];
+    var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
+
+    if(0 < dayOfMonth < 31){
+
+    }else if (male.checked){//
+        result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
+    } else {
+        result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a" + days[birthDay] + "that's your Ghanaian name.";
+    }
+
+
+
+
+}
 

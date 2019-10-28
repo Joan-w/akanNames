@@ -19,31 +19,31 @@
                 will spell it so feel free to take the bold step.</p>
             </article>
             <form>
-                <div>
-                    <input type="number" id="century" placeholder="Century" required>
+                <div class="resulted">
+                    <p id="result"></p>
                 </div>
                 <div>
-                    <input type="number" id="year" placeholder="Year" required axlength="4" minlength="4">
+                    <input type="number" id="yob" placeholder="Year" required>
                 </div>
                 <div>
-                    <input type="number" id="month" placeholder="Month" required min="1" max="12">
+                    <input type="number" id="month" placeholder="Month" required>
                 </div>
                 <div>
-                    <input type="number" id="day" placeholder="Day of the month" required min="1" max="31">
+                    <input type="number" id="day" placeholder="Day of the week" required>
                 </div>
                 <div id="gend">
-                    Male<input type="checkbox" value="male" name="gender">
-                    Female<input type="checkbox" value="female" name="gender">
+                    Male<input type="radio" value="male" id="male">
+                    Female<input type="radio" value="female" id="female">
                 </div>
                 <div id="btn">
-                    <input type="submit" value="submit" onClick="getName();" id="submit">
+                    <input type="button" value="find" onclick="getName();" id="submit">
                 </div>
-                <p id="result"></p>
             </form>
         </section>
         <div>
             <img src="images/image.png" alt="Ghana's heritage">
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
