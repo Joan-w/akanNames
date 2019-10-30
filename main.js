@@ -20,11 +20,14 @@ function getName(){
     else if( dayOfMonth < 0 || dayOfMonth >31 || dayOfMonth == "") {
         alert("Hey you need to re-enter a valid day!");
     } 
+    else if(male.checked == false || female.checked == false){
+        alert("You need to specify your gender!");
+    }
     else if (male.checked){
-        result.innerHTML = "Hey" + maleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
+        result.innerHTML = "Hey " + maleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
     } 
     else{
-        result.innerHTML = "Hey" + femaleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
+        result.innerHTML = "Hey " + femaleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
     }
 }
 
