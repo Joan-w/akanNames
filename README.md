@@ -1,7 +1,7 @@
 # AKAN NAMES GENERATOR
 
 By: Murathe Isaac.
-![Akan names](https://github.com/Murathe/akanNames/blob/master/images/image2.png)
+![Akan names](https://github.com/Murathe/akanNames/blob/master/images/image.jpg)
 
 # Live link
 For a quick navigation to my Akan name web application, follow through this link: https://murathe.github.io/akanNames/
