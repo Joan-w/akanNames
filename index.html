@@ -10,42 +10,48 @@
 </head>
 <body>
     <div class="container">
-        <div id="content">
-            <header>
-                <h1>Did you know?</h1>
-            </header>
-            <section>
-                <article>
-                    <p>Long time ago the whole of Africa was contained as a single country, Ghana. We all had a single naming culture, <strong>the Akan</strong> and to 
+        <div class="row">
+                <div class="row">
+                    <h1>Did you know?</h1>
+                </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <article>
+                        <p>Long time ago the whole of Africa was contained as a single country, Ghana. We all had a single naming culture, <strong>the Akan</strong> and to 
                         take you back to your long-lost traditions the form below will remind your name. By entering your date of birth, the African jujus working behind the scenes 
-                    will spell it so feel free to take the bold step.</p>
-                </article>
-                <form>
-                    <div class="resulted">
-                        <p id="result"></p>
-                    </div>
-                    <div>
-                        <input type="number" id="yob" placeholder="Year" required>
-                    </div>
-                    <div>
-                        <input type="number" id="month" placeholder="Month" required >
-                    </div>
-                    <div>
-                        <input type="number" id="day" placeholder="Day of the week" required >
-                    </div>
-                    <div id="gend">
-                        Male<input type="radio" value="male" id="male" name="gender">
-                        Female<input type="radio" value="female" id="female" name="gender">
-                    </div>
-                    <div id="btn">
-                        <input type="button" value="Find out" onclick="getName();" id="submit">
-                        <input type="reset" value="Reset">
-                    </div>
-                </form>
-            </section>
-            <div>
-                <img src="images/image.png" alt="Ghana's heritage">
+                        will spell it so feel free to take the bold step.</p>
+                    </article>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <form>
+                        <div class="resulted">
+                            <p id="result"></p>
+                        </div>
+                        <div>
+                            <input type="number" id="yob" placeholder="Year" required>
+                        </div>
+                        <div>
+                            <input type="number" id="month" placeholder="Month" required >
+                        </div>
+                        <div>
+                            <input type="number" id="day" placeholder="Day of the week" required >
+                        </div>
+                        <div id="gend">
+                            Male<input type="radio" value="male" id="male" name="gender">
+                            Female<input type="radio" value="female" id="female" name="gender">
+                        </div>
+                        <div id="btn">
+                            <input type="button" value="Find out" onclick="getName();" id="submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <img src="images/image.png" alt="Ghana's heritage">
+                </div>
+            </div>  
         </div>
     </div>
     <script src="main.js"></script>
