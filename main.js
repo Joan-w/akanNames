@@ -26,8 +26,11 @@ function getName(){
     else if (male.checked == true){
         result.innerHTML = "Hey " + maleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
     } 
-    else {
+    else if (female.checked == true){
         result.innerHTML = "Hey " + femaleNames[birthDay] +  ". Well, since you were born on a " + days[birthDay] + " that's your Ghanaian name.";
+    }
+    else{
+        alert("Come up Akan, jsut run!")
     }
 }
 
