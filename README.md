@@ -3,6 +3,9 @@
 By: Murathe Isaac.
 ![Akan names](https://github.com/Murathe/akanNames/blob/master/images/image2.png)
 
+# Live link
+For a quick navigation to my Akan name web application, follow through this link: https://murathe.github.io/akanNames/
+
 # DESCRIPTION 
 
 This is web application that helps to output one's Ghanaian name in line with the Akan naming culture, the inputs being full date of birth. The names are different such that each gender has it's own set of names provided.
@@ -11,10 +14,12 @@ This is web application that helps to output one's Ghanaian name in line with th
 
 - HTML
 - CSS
+- Bootstrap
 - JAVASCRIPT
 - MARKDOWN
 
 # BDD
+A user will be required to feed the application through the form her/his birth date as illustarted bellow and the program will generate the respective Akan name.
 
 input           | ouput
 ----------------|--------------
